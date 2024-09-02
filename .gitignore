@@ -1,0 +1,9 @@
+test/
+test_divided/
+train/
+train_divided/
+soil_photos.zip/
+
+env/
+
+*.h5
