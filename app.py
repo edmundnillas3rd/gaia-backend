@@ -207,7 +207,7 @@ def upload_image():
         silt_count = 0
 
         img = cv2.imread(image_fp)
-        img = cv2.resize(img,(1024,1024))
+        img = cv2.resize(img,(480, 360))
         im_dim = 256
 
         for r in range(0, img.shape[0], im_dim):
