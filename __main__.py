@@ -18,7 +18,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     training_data_directory = 'train'
     test_data_directory = 'test'
 
