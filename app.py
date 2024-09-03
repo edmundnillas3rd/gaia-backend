@@ -83,7 +83,7 @@ def upload_image():
     num_conv_layers = 2
     num_dense_layers = 1
     layer_size = 2
-    num_training_epochs = 3
+    num_training_epochs = 2
     MODEL_NAME = 'soil'
 
     # Initiate model variable
