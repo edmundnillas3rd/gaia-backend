@@ -4,6 +4,12 @@ train/
 train_divided/
 soil_photos.zip/
 
-env/
+# Flask
+**/__pycache__/
 
+# Directories for python virtual environments
+env/
+.venv/
+
+# Saved Model for CNN
 *.h5
