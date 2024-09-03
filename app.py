@@ -36,8 +36,8 @@ def index():
 
 @app.route('/image/upload-image', methods=['POST'])
 def upload_image():
-    training_data_directory = 'flaskr/train'
-    test_data_directory = 'flaskr/test'
+    training_data_directory = 'train'
+    test_data_directory = 'test'
 
     # download soil_photos.zip
     if not os.path.exists('test') and not os.path.exists('train'):
