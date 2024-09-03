@@ -67,14 +67,14 @@ def upload_image():
     training_data = training_data_processor.flow_from_directory(
         training_data_directory,
         target_size = (256, 256),
-        batch_size = 2,
+        batch_size = 5,
         class_mode = 'categorical',
     )
 
     testing_data = test_data_processor.flow_from_directory(
         test_data_directory,
         target_size = (256 ,256),
-        batch_size = 2,
+        batch_size = 5,
         class_mode = 'categorical',
         shuffle = False
     )
@@ -83,7 +83,7 @@ def upload_image():
     num_conv_layers = 2
     num_dense_layers = 1
     layer_size = 2
-    num_training_epochs = 2
+    num_training_epochs = 5
     MODEL_NAME = 'soil'
 
     # Initiate model variable
