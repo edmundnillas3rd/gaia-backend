@@ -67,14 +67,14 @@ def upload_image():
     training_data = training_data_processor.flow_from_directory(
         training_data_directory,
         target_size = (256, 256),
-        batch_size = 32,
+        batch_size = 2,
         class_mode = 'categorical',
     )
 
     testing_data = test_data_processor.flow_from_directory(
         test_data_directory,
         target_size = (256 ,256),
-        batch_size = 32,
+        batch_size = 2,
         class_mode = 'categorical',
         shuffle = False
     )
