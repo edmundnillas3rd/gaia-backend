@@ -13,3 +13,4 @@ env/
 
 # Saved Model for CNN
 *.h5
+uploads/
